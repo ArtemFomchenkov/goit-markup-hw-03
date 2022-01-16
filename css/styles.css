@@ -109,8 +109,8 @@ button {
 
 .button-secondary:hover,
 .button-secondary:focus {
-  color: var(--second-text-color);
-  background-color: red;
+  color: var(--third-text-color);
+  background-color: #188ce8;
 }
 
 /* ------- Features ------- */
@@ -194,7 +194,6 @@ button {
   font-size: 16px;
   line-height: calc(26 / 16);
   text-align: center;
-  letter-spacing: 0.03em;
   background-color: var(--first-bg-color);
   color: var(--second-text-color);
 }
@@ -203,4 +202,18 @@ button {
 .button-primary:focus {
   background-color: var(--accent-logo-color);
   color: var(--third-text-color);
+}
+
+.activity-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+  color: var(--second-text-color);
+}
+
+.activity-item {
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  color: var(--first-text-color);
 }
