@@ -68,12 +68,6 @@ a {
   color: var(--first-text-color);
 }
 
-/*.header-nav .link:hover,
-.header-contact .link-contact:hover {
-  color: var(--accent-logo-color);
-}
-*/
-
 .header-nav .link:hover,
 .header-nav .link:focus,
 .header-nav .link-current:hover,
@@ -85,33 +79,92 @@ a {
 
 /* ------- Hero ------- */
 
-.poptfolio-title {
+.hero-section {
+  background-color: var(--third-bg-color);
 }
 
-.button-list {
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--third-text-color);
 }
 
-.button-item {
+.button-hero {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border-style: none;
+  border-color: none;
+  color: var(--third-text-color);
+  background-color: var(--accent-logo-color);
 }
 
-/*
-.header-nav
-.link
-.link-current
-.header-contact
+/* ------- Features ------- */
 
+.section-features {
+  background-color: var(--first-bg-color);
+}
 
-.poptfolio-title
-*/
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  color: var(--second-text-color);
+}
+
+.section-features {
+}
+
+.features-title {
+}
+
+.features-list {
+}
+
+.features-item {
+}
+
+/* ------- Jobs ------- */
+
+.section-job {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  color: var(--second-text-color);
+}
+
+.job-title {
+}
+
+.job-list {
+}
+
+/* ------- Our comand ------- */
+
+.section-our-comand {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  color: var(--second-text-color);
+}
 
 /* 
-:root {
-  --primary-text-color: #757575;
-  --title-text-color: #212121;
-  --accent-color: #2196f3;
-  --primary-white-color: #ffffff;
-  --secondary-bg-color: #f5f4fa;
-  --first-bg-color: #2f303a;
-  --footer-address-color: rgba(255, 255, 255, 0.6);
-}
+font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--third-text-color);
+
 */
