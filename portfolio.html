@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Портфолио</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet"
     >
@@ -13,176 +13,132 @@
 <body>
     <!-- Header navigation -->
 
-    <header class="header-nav">
-        <nav>     
-            <a class="logo" href="/"><span class="logo-color">Web</span>Studio</a>
-            <ul>
-                <li>
-                    <a class="link" href="./index.html">Студия</a>
-                </li>
-                <li>
-                    <a class="link-current" href="./portfolio.html">Портфолио</a>
-                </li>
-                <li>
-                    <a class="link" href="">Контакты</a>
-                </li>
+    <header>
+        <nav>
+            <a class="logo" href="index.html">Web<span class="logo-color">Studio</span></a>
+            <ul class="site-nav list">
+                <li><a class="link" href="./index.html">Студия</a></li>
+                <li><a class="link current" href="./portfolio.html">Портфолио</a></li>
+                <li><a class="link" href="#">Контакты</a></li>
             </ul>
         </nav>
-            <ul class="header-contact">
-                <li>
-                    <a class="link-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li>
-                    <a class="link-contact" href="tel:+380961111111">+38 096 111 11 11</a>
-                </li>
-            </ul>
+        <ul class="contact list">
+            <li>
+                <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li>
+                <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+        </ul>
     </header>
     <main>
-        <section>
-            <!-- Данный атрибут hidden="true" содержит скрытый заголовок в теге <H1> -->
+        <!-- Hero -->
 
-            <H1 class="poptfolio-title" hidden="true">Заголовок страницы Портфолио</H1>
-            <ul class="button-list">
+        <section class="section-potfolio">
+            <!-- Данный атрибут hidden="true" содержит скрытый заголовок -->
+
+            <h1 hidden="true">Заголовок страницы Портфолио</h1>
+
+            <!-- Filter -->
+
+            <h2 hidden="true">Фильтр</h2>
+            <ul class="filter list">
                 <li>
-                    <button class="button-item" type="button">Все</button>                 
+                    <button class="button-primary" type="button">Все</button>                 
                 </li>
                 <li>
-                    <button class="button-item" type="button">Веб-сайты</button>                   
+                    <button class="button-primary" type="button">Веб-сайты</button>                   
                 </li>
                 <li>
-                    <button class="button-item" type="button">Приложения</button>                 
+                    <button class="button-primary" type="button">Приложения</button>                 
                 </li>
                 <li>
-                    <button class="button-item" type="button">Дизайн</button>                 
+                    <button class="button-primary" type="button">Дизайн</button>                 
                 </li>
                 <li>
-                    <button class="button-item" type="button">Маркетинг</button>                  
+                    <button class="button-primary" type="button">Маркетинг</button>                  
                 </li>
             </ul>
-            <ul>
+
+            <!-- Activity -->
+
+            <h2 class="activity-title" hidden="true">Деятельность</h2>
+            <ul class="activity-title list">
                 <li>
                     <a href="">
-                        <img 
-                            src="./images/portfolio1.jpg" 
-                            alt="Технокряк"
-                            width="370"
-                            height="294"    
-                        >
-                        <h2>Технокряк</h2>             
-                        <p>Веб-сайт</p>
+                        <img class="activity-item-photo" src="./images/portfolio1.jpg" alt="Технокряк" width="370" height="294">
+                        <h3 class="activity-title">Технокряк</h3>             
+                        <p class="activity-item">Веб-сайт</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img 
-                            src="./images/portfolio2.jpg" 
-                            alt="Постер New Orlean vs Golden Star"
-                            width="370"
-                            height="294"    
-                        >
-                        <h2>Постер New Orlean vs Golden Star</h2>
-                        <p>Дизайн</p>
+                        <img class="activity-item-photo" src="./images/portfolio2.jpg" alt="Постер New Orlean vs Golden Star" width="370" height="294">
+                        <h3 class="activity-title">Постер New Orlean vs Golden Star</h3>
+                        <p class="activity-item">Дизайн</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img 
-                            src="./images/portfolio3.jpg" 
-                            alt="Ресторан Seafood"
-                            width="370"
-                            height="294"    
-                        >
-                        <h2>Ресторан Seafood</h2>
-                        <p>Приложение</p>
+                        <img class="activity-item-photo" src="./images/portfolio3.jpg" alt="Ресторан Seafood" width="370" height="294">
+                        <h3 class="activity-title">Ресторан Seafood</h3>
+                        <p class="activity-item">Приложение</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img 
-                            src="./images/portfolio4.jpg" 
-                            alt="Проект Prime"
-                            width="370"
-                            height="294"
-                        >
-                        <h2>Проект Prime</h2>
-                        <p>Маркетинг</p>
+                        <img class="activity-item-photo" src="./images/portfolio4.jpg" alt="Проект Prime" width="370" height="294">
+                        <h3 class="activity-title">Проект Prime</h3>
+                        <p class="activity-item">Маркетинг</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img 
-                            src="./images/portfolio5.jpg" 
-                            alt="Проект Boxes"
-                            width="370"
-                            height="294"    
-                        >
-                        <h2>Проект Boxes</h2>
-                        <p>Приложение</p>
+                        <img class="activity-item-photo" src="./images/portfolio5.jpg" alt="Проект Boxes"width="370" height="294">
+                        <h3 class="activity-title">Проект Boxes</h3>
+                        <p class="activity-item">Приложение</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img 
-                            src="./images/portfolio6.jpg" 
-                            alt="Inspiration has no Borders"
-                            width="370"
-                            height="294"    
-                        >
-                        <h2>Inspiration has no Borders</h2>
-                        <p>Веб-сайт</p>
+                        <img class="activity-item-photo" src="./images/portfolio6.jpg" alt="Inspiration has no Borders" width="370" height="294">
+                        <h3 class="activity-title">Inspiration has no Borders</h3>
+                        <p class="activity-item">Веб-сайт</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img 
-                            src="./images/portfolio7.jpg" 
-                            alt="Издание Limited Edition"
-                            width="370"
-                            height="294"
-                        >
-                        <h2>Издание Limited Edition</h2>
-                        <p>Дизайн</p>
+                        <img class="activity-item-photo" src="./images/portfolio7.jpg" alt="Издание Limited Edition" width="370" height="294">
+                        <h3 class="activity-title">Издание Limited Edition</h3>
+                        <p class="activity-item">Дизайн</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img 
-                            src="./images/portfolio8.jpg" 
-                            alt="Проект LAB"
-                            width="370"
-                            height="294"
-                        >
-                        <h2>Проект LAB</h2>
-                        <p>Маркетинг</p>
+                        <img class="activity-item-photo" src="./images/portfolio8.jpg" alt="Проект LAB" width="370" height="294">
+                        <h3 class="activity-title">Проект LAB</h3>
+                        <p class="activity-item">Маркетинг</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img 
-                            src="./images/portfolio9.jpg" 
-                            alt="Growing Business"
-                            width="370"
-                            height="294"
-                        >
-                        <h2>Growing Business</h2>
-                        <p>Приложение</p>
+                        <img class="activity-item-photo" src="./images/portfolio9.jpg" alt="Growing Business" width="370" height="294">
+                        <h3 class="activity-title">Growing Business</h3>
+                        <p class="activity-item">Приложение</p>
                     </a>
                 </li>
             </ul>
         </section>
     </main>
-    <footer>
-        <a href="/">
-            WebStudio
-        </a>
+    <footer class="footer">
+        <a class="logo" href="./index.html">Web<span class="logo-color-footer">Studio</span></a>
         <address>
-            <p>г. Киев, пр-т Леси Украинки, 26</p>
-            <a href="mailto:info@devstudio.com">
-                info@devstudio.com
-            </a>
-            <a href="tel:+380961111111">
-                +38 096 111 11 11
-            </a>
+            <ul class="footer-contact list">
+                <li><a class="contact-address" href="https://goo.gl/maps/nZHNvtM2P8FYW9ou6" target="_blank" rel=“noopener
+                        noreferrer”>г. Киев, пр-т Леси Украинки, 26</a></li>
+                <li><a class="contact-item link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="contact-item link" href="tel:+380961111111">+38 096 111 11 11 </a></li>
+            </ul>
         </address>
     </footer>
 </body>
