@@ -113,81 +113,7 @@ button {
   background-color: red;
 }
 
-
-
-
-
-
-
-/*
-.header-nav {
-  letter-spacing: 0.02em;
-  background-color: var(--nav-bg-color);
-}
-
-.header-nav .link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: calc(16 / 14);
-  color: var(--second-text-color);
-  background-color: var(--nav-bg-color);
-}
-
-.link-current {
-  color: var(--accent-logo-color);
-}
-
-.header-contact .link-contact {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  color: var(--first-text-color);
-}
-
-.header-nav .link:hover,
-.header-nav .link:focus,
-.header-nav .link-current:hover,
-.header-nav .link-current:focus,
-.header-contact .link-contact:hover,
-.header-contact .link-contact:focus {
-  color: var(--accent-logo-color);
-}
-
-/* ------- Hero ------- 
-
-.hero-section {
-  background-color: var(--third-bg-color);
-}
-
-.hero-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: calc(60 / 44);
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: var(--third-text-color);
-}
-
-.button-hero {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: calc(30 / 16);
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  border-style: none;
-  border-color: none;
-  color: var(--third-text-color);
-  background-color: var(--accent-logo-color);
-}
-
-/* ------- Features ------- 
-
-.section-features {
-  background-color: var(--first-bg-color);
-}
+/* ------- Features ------- */
 
 .section-title {
   font-weight: 700;
@@ -197,21 +123,24 @@ button {
   color: var(--second-text-color);
 }
 
-.section-features {
+.features-list .features-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+  color: var(--second-text-color);
 }
 
-.features-title {
+.features-list .features-item {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  color: var(--first-text-color);
 }
 
-.features-list {
-}
+/* ------- Jobs ------- */
 
-.features-item {
-}
-
-/* ------- Jobs ------- 
-
-.section-job {
+.section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -219,30 +148,59 @@ button {
   color: var(--second-text-color);
 }
 
-.job-title {
-}
+/* ------- Our comand ------- */
 
-.job-list {
-}
-
-/* ------- Our comand ------- 
-
-.section-our-comand {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: calc(42 / 36);
+.team-list .team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
   text-align: center;
   color: var(--second-text-color);
 }
-*/
 
-/* 
-font-weight: 900;
-  font-size: 44px;
-  line-height: calc(60 / 44);
+.team-list .team-item {
+  font-size: 16px;
+  line-height: calc(19 / 16);
   text-align: center;
-  letter-spacing: 0.06em;
+  color: var(--first-text-color);
+}
+
+/* ------- Footer ------- */
+
+.footer {
+  background-color: var(--third-bg-color);
+}
+
+.footer-contact {
+  font-style: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  text-decoration: none;
+}
+
+.contact-address {
   color: var(--third-text-color);
+}
 
-*/
-*/
+.contact-item {
+  color: var(--footer-address-color);
+}
+
+/* ------- PORTFOLIO ------- */
+
+.button-primary {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--background-color-btn);
+  color: var(--title-text-color);
+}
+
+.button-primary:hover,
+.button-primary:focus {
+  background-color: var(--akcent-text-color);
+  color: var(--primary-white-color);
+}
