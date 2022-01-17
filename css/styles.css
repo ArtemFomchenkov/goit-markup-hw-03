@@ -213,6 +213,7 @@ button {
 }
 
 .activity-item {
+  font-weight: 400;
   font-size: 16px;
   line-height: calc(30 / 16);
   color: var(--first-text-color);
