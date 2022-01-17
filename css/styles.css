@@ -204,7 +204,7 @@ button {
   color: var(--third-text-color);
 }
 
-.activity-list {
+.activity-item-title {
   font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
@@ -212,7 +212,7 @@ button {
   color: var(--second-text-color);
 }
 
-.activity-item {
+.activity-item-text {
   font-weight: 400;
   font-size: 16px;
   line-height: calc(30 / 16);
