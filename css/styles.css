@@ -31,7 +31,7 @@ img {
   height: auto;
 }
 
-/* ------- Body site ------- */
+/* ------- Body site + ------- */
 
 body {
   font-family: Roboto, sans-serif;
@@ -71,6 +71,12 @@ button {
 
 /* ------- Logo ------- */
 
+.header-logo-box {
+  margin-right: auto;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -90,7 +96,38 @@ button {
 
 /* ------- Header ------- */
 
+.header {
+  border-bottom: 1px solid #ececec;
+  /*
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ececec; 
+  */
+  background-color: var(--nav-bg-color);
+}
+
+.header-nav {
+  display: flex;
+}
+
+.header-nav-list {
+  display: flex;
+  margin-right: auto;
+}
+
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+}
+
+.site-nav .header-nav-item + .header-nav-item {
+  margin-left: 50px;
+}
+
 .site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -98,12 +135,27 @@ button {
   color: var(--second-text-color);
 }
 
+/* ------- Contact ------- */
+
 .contact .link {
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--first-text-color);
+  background-color: var(--nav-bg-color);
+}
+
+.contact {
+  display: flex;
+  margin-left: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-decoration: none;
+}
+
+.contact .header-nav-item + .header-nav-item {
+  margin-left: 50px;
 }
 
 .link:hover,
