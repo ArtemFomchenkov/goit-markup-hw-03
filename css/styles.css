@@ -99,6 +99,8 @@ button {
 /* ------- Header ------- */
 
 .header {
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
   border-bottom: 1px solid #ececec;
   /*
   border-bottom-width: 1px;
@@ -264,7 +266,6 @@ button {
   text-transform: uppercase;
   color: var(--second-text-color);
 }
-
 .features-list .features-item {
   font-size: 14px;
   line-height: calc(24 / 14);
@@ -280,7 +281,7 @@ button {
   color: var(--second-text-color);
 }
 .features-item {
-  padding-top: 10px;
+  margin-top: 10px;
   font-size: 14px;
   line-height: calc(24 / 14);
   color: var(--first-text-color);
@@ -362,7 +363,6 @@ border-radius: 0px 0px 4px 4px; */
   text-align: center;
   color: var(--second-text-color);
 }
-
 .team-list .team-item-text {
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -374,14 +374,14 @@ border-radius: 0px 0px 4px 4px; */
 
 .footer {
   background-color: var(--third-bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-section {
   display: flex;
   flex-direction: column;
   margin-right: auto;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .footer-logo-box {
@@ -451,6 +451,7 @@ flex-basis: calc(100% / 3 - 30px);
 .activity-list {
   display: flex;
   flex-wrap: wrap;
+  margin-right: -30px;
 }
 
 .activity-list > .item {
