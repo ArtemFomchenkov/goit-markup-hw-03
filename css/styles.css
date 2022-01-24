@@ -248,6 +248,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   margin-top: 0;
+  margin-right: -30px;
 }
 
 .features-list > .item {
@@ -300,6 +301,7 @@ button {
 .job-list {
   display: flex;
   flex-wrap: wrap;
+  margin-right: -30px;
 }
 .job-list > .item {
   flex-basis: calc(100% / 3 - 30px);
@@ -317,6 +319,7 @@ button {
 
 .team-list {
   display: flex;
+  margin-right: -30px;
 }
 
 .team-item-title {
